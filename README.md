@@ -56,8 +56,8 @@ The project carried out for the course "Machine and Deep Learning," consists of 
 - **models_images**: Folder with pre-trained models for images.
 - **models_text**: Folder with pre-trained models for texts.
 - **notebook**: Folder with notebooks used in the development of the project.
-- *accuracy_images_script.py*: script to compute accuracy on custom images dataset with the pretrained models.
-- *accuracy_text_script.py*: script to compute accuracy on custom texts dataset with the pretrained models
+- **accuracy_images_script.py**: script to compute accuracy on custom images dataset with the pretrained models.
+- **accuracy_text_script.py**: script to compute accuracy on custom texts dataset with the pretrained models
 
 
 
@@ -121,7 +121,7 @@ To run the script:
 
 Example:
   ```sh
-     python accuracy_images_script.py --scale 0.05  "/home/giuseppe/Scrivania/universita/Magistrale/Machine and Deep Learning/Progetto ML/Dataset/immagini-3/immagini-3" "/home/giuseppe/Scrivania/model_accuracy/models_images"
+     python accuracy_images_script.py --scale 0.05  "/home/Dataset/images" "/home/models_images"
 
   ```
 
